@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AQATrainee.task4.Task4_Main</StartupObject>
+    <StartupObject>AQATrainee.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,9 +49,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="task4\Calculator.cs" />
     <Compile Include="task4\Task4_Main.cs" />
+    <Compile Include="Task2\BrowserType.cs" />
+    <Compile Include="Task2\Task2_Main.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\ChromeBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\FirefoxBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\BrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\InternetExplorerBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\ChromeBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\FirefoxBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\IBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\InternetExplorerBrowserTypeChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
