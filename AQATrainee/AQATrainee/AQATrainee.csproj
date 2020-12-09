@@ -51,9 +51,20 @@
     <Compile Include="task3\StringLingvoCalculator.cs" />
     <Compile Include="task3\StringMathCalculator.cs" />
     <Compile Include="task3\Task3_Main.cs" />
+    <Compile Include="Task2\BrowserType.cs" />
+    <Compile Include="Task2\Task2_Main.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\ChromeBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\FirefoxBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\BrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithAbstractClass\InternetExplorerBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\ChromeBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\FirefoxBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\IBrowserTypeChecker.cs" />
+    <Compile Include="Task2\Task2_WithInterface\InternetExplorerBrowserTypeChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
